@@ -24,7 +24,7 @@ A3W_moonLight = 1;                 // Moon light during night (0 = no, 1 = yes)
 A3W_startingMoney = 5000;           // Amount of money that players start with
 A3W_survivalSystem = 0;            // Food and water are required to stay alive (0 = no, 1 = yes) - 0 removes food and water items from the mission
 A3W_unlimitedStamina = 1;          // Allow unlimited sprinting, jumping, etc. (0 = no, 1 = yes) - this also removes energy drinks from the mission
-A3W_bleedingTime = 60;             // Time in seconds for which to allow revive after a critical injury (minimum 10 seconds) - to disable revive, go in addons\far_revive\FAR_defines.sqf
+A3W_bleedingTime = 120;             // Time in seconds for which to allow revive after a critical injury (minimum 10 seconds) - to disable revive, go in addons\far_revive\FAR_defines.sqf
 A3W_headshotNoRevive = 0;          // BROKEN - Instant death on fatal headshot by enemy player with non-explosive ammo (0 = no, 1 = yes)
 
 // Artillery settings
@@ -47,7 +47,7 @@ A3W_antiHackMinRecoil = 1.0;       // Mininum recoil coefficient enforced by the
 // Store settings
 A3W_showGunStoreStatus = 1;        // Show enemy and friendly presence at gunstores on map (0 = no, 1 = yes)
 A3W_gunStoreIntruderWarning = 1;   // Warn players in gunstore areas of enemy intruders (0 = no, 1 = yes)
-A3W_remoteBombStoreRadius = 70;    // Prevent players from placing any kind of explosive on the ground within this distance from any store (0 = disabled)
+A3W_remoteBombStoreRadius = 100;    // Prevent players from placing any kind of explosive on the ground within this distance from any store (0 = disabled)
 A3W_poiObjLockDistance = 100;      // Prevent players from locking objects within this distance from points of interest (stores & mission spawns)
 A3W_vehiclePurchaseCooldown = 60;  // Number of seconds to wait before allowing someone to purchase another vehicle, don't bother setting it too high because it can be bypassed by rejoining
 
@@ -74,7 +74,7 @@ A3W_moneySaving = 1;               // If playerSaving = 1, save player money amo
 A3W_playerStatsGlobal = 0;         // If playerSaving = 1 and savingMethod = "extDB", players' stats on the scoreboard will be their all-time global values from all servers of your database (0 = no, 1 = yes)
 A3W_timeSaving = 0;                // Save and restore in-game clock time between server restarts (0 = no, 1 = yes)
 A3W_weatherSaving = 0;             // Save and restore weather settings between server restarts (0 = no, 1 = yes)
-A3W_combatAbortDelay = 60;         // If playerSaving = 1, delay in seconds for which to disable abort and respawn buttons after firing or being shot (0 = none)
+A3W_combatAbortDelay = 30;         // If playerSaving = 1, delay in seconds for which to disable abort and respawn buttons after firing or being shot (0 = none)
 A3W_vehicleSaving = 1;             // Save purchased and captured vehicles between server restarts (0 = no, 1 = yes)
 A3W_missionVehicleSaving = 0;      // Autosaving behavior for convoy/patrol/shipment _vehicles, until a player force-saves or acquires ownership (0 = off, 1 = on)
 A3W_baseSaving = 1;                // Save locked base parts between server restarts (0 = no, 1 = yes)
@@ -129,12 +129,12 @@ A3W_hcObjSavingID = 1;             // ID of the headless client in charge of obj
 // Server spawn settings
 A3W_serverSpawning = 1;            // Vehicle, object, and loot spawning (0 = no, 1 = yes)
 A3W_vehicleSpawning = 1;           // If serverSpawning = 1, spawn vehicles in towns (0 = no, 1 = yes)
-A3W_vehicleQuantity = 200;         // Approximate number of land vehicles to be spawned in towns
+A3W_vehicleQuantity = 100;         // Approximate number of land vehicles to be spawned in towns
 A3W_boatSpawning = 1;              // If serverSpawning = 1, spawn boats at marked areas near coasts (0 = no, 1 = yes)
-A3W_heliSpawning = 1;              // If serverSpawning = 1, spawn helicopters in some towns and airfields (0 = no, 1 = yes)
-A3W_planeSpawning = 1;             // If serverSpawning = 1, spawn planes at some airfields (0 = no, 1 = yes)
-A3W_boxSpawning = 1;               // If serverSpawning = 1, spawn weapon crates in 50% towns (0 = no, 1 = yes)
-A3W_baseBuilding = 1;              // If serverSpawning = 1, spawn base parts in towns (0 = no, 1 = yes)
+A3W_heliSpawning = 0;              // If serverSpawning = 1, spawn helicopters in some towns and airfields (0 = no, 1 = yes)
+A3W_planeSpawning = 0;             // If serverSpawning = 1, spawn planes at some airfields (0 = no, 1 = yes)
+A3W_boxSpawning = 0;               // If serverSpawning = 1, spawn weapon crates in 50% towns (0 = no, 1 = yes)
+A3W_baseBuilding = 0;              // If serverSpawning = 1, spawn base parts in towns (0 = no, 1 = yes)
 A3W_essentialsSpawning = 1;        // If serverSpawning = 1, spawn essential items (food sacks, water barrels, minor supply crates) in towns (0 = no, 1 = yes)
 
 // Loot settings
@@ -153,7 +153,7 @@ A3W_payrollAmount = 100;           // Amount of money rewarded per territory on 
 A3W_serverMissions = 1;            // Enable server missions (0 = no, 1 = yes)
 A3W_missionsDifficulty = 0;        // Missions difficulty (0 = normal, 1 = hard)
 A3W_missionFarAiDrawLines = 1;     // Draw small red lines on the map from mission markers to individual units & vehicles which are further away than 75m from the objective (0 = no, 1 = yes)
-A3W_missionsQuantity = 6;          // Number of missions running at the same time (0 to 6)
+A3W_missionsQuantity = 5;          // Number of missions running at the same time (0 to 6)
 A3W_heliPatrolMissions = 1;        // Enable missions involving flying helicopters piloted by AI (0 = no, 1 = yes)
 A3W_underWaterMissions = 1;        // Enable underwater missions which require diving gear (0 = no, 1 = yes)
 A3W_mainMissionDelay = 10*60;      // Time in seconds between Main Missions
