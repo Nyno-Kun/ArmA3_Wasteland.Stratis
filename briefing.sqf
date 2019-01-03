@@ -28,7 +28,7 @@ player createDiaryRecord ["changelog",
 
 player createDiaryRecord ["changelog",
 [
-"hlvtxV1.0,
+"hlvtxV1.0",
 "
 <br/>[Initial release] - Cloned the A3WASTELAND.COM Original
 "
@@ -45,7 +45,6 @@ player createDiaryRecord ["credits",
 <br/>	* SwissUnlucky /  Pedro Brecheisen (Admin)
 <br/>	* Carijet / Marvin Brecheisen (Admin)
 <br/>
-
 <br/><font size='16' color='#BBBBBB'>Developed by A3Wasteland.com:</font>
 <br/>	* AgentRev (TeamPlayerGaming)
 <br/>	* JoSchaap (GoT/Tweakers.net)
