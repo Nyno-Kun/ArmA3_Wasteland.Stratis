@@ -57,3 +57,8 @@ if (["A3W_savingMethod", "profile"] call getPublicVar == "extDB") then
 		[player, ["<img image='client\icons\save.paa'/> Force Save Turret", { cursorTarget call fn_forceSaveObject }, [], -9.5, false, true, "", "call canForceSaveStaticWeapon"]] call fn_addManagedAction;
 	};
 };
+# Custom Part
+	if (["A3W_vehicleLocking"] call isConfigOn) then
+	{
+		[player, ["<img image='client\icons\r3f_unlock.paa'/> Break In To Vehicle", "addons\breakInToVehicle\breakInToVehicle.sqf", [cursorTarget], 1, false, false, "", "alive cursorTarget && !isNull cursorTarget && isNull objectParent player && {{ cursorTarget isKindOf _x } count ['LandVehicle', 'Ship', 'Air'] > 0 ;} && cursorTarget getVariable ['ownerUID',''] != getPlayerUID player && locked cursorTarget >= 2 && cursorTarget distance player < 4 && ('ToolKit' in (items player))"]] call fn_addManagedAction;
+	};
