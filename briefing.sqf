@@ -17,6 +17,15 @@ player createDiarySubject ["infos", "Infos and Help"];
 player createDiarySubject ["changelog", "Changelog"];
 player createDiarySubject ["credits", "Credits"];
 
+player createDiaryRecord ["changelog",
+[
+"hlvtxV1.2",
+"
+<br/>[Add] - New Addons
+<br/>[Changed] Credits and Rules changed
+<br/>[Changed] Some Serversettings
+"
+]];
 
 player createDiaryRecord ["changelog",
 [
