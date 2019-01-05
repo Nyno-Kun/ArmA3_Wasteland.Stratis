@@ -178,5 +178,3 @@ inGameUISetEventHandler ["Action", "_this call A3W_fnc_inGameUIActionEvent"];
 	};
 } forEach pvar_spawn_beacons;
 
-#Additional Addons
-[] execVM "client\functions\afkTimer.sqf";
