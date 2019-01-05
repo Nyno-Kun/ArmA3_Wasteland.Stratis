@@ -68,7 +68,7 @@ A3W_bountyFee = 50;
 A3W_bountyKillsLifetime = 3*24;
 
 // Persistence settings
-A3W_savingMethod = "extDB";      // Method used for saving data ("profile", "iniDB", "extDB")
+A3W_savingMethod = "iniDB";      // Method used for saving data ("profile", "iniDB", "extDB")
 A3W_playerSaving = 1;              // Save player data like position, health, inventory, etc. (0 = no, 1 = yes)
 A3W_moneySaving = 1;               // If playerSaving = 1, save player money amount (0 = no, 1 = yes)
 A3W_playerStatsGlobal = 0;         // If playerSaving = 1 and savingMethod = "extDB", players' stats on the scoreboard will be their all-time global values from all servers of your database (0 = no, 1 = yes)
