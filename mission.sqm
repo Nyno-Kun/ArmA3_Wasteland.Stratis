@@ -8,11 +8,11 @@ class EditorData
 	toggles=14;
 	class ItemIDProvider
 	{
-		nextID=1025;
+		nextID=1029;
 	};
 	class MarkerIDProvider
 	{
-		nextID=165;
+		nextID=169;
 	};
 	class LayerIndexProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={2591.8,167.15276,5833.3125};
-		dir[]={0.81455809,-0.52023476,0.25713238};
-		up[]={0.49636227,0.85381168,0.15668792};
-		aside[]={0.30106264,1.0738659e-006,-0.9537183};
+		pos[]={2561.0789,31.660151,6014.52};
+		dir[]={-0.10408767,-0.97551149,0.1944399};
+		up[]={-0.46036008,0.2200906,0.85997248};
+		aside[]={0.88172126,1.15484e-007,0.47200441};
 	};
 };
 binarizationWanted=0;
@@ -245,7 +245,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=758;
+		items=762;
 		class Item0
 		{
 			dataType="Group";
@@ -15643,6 +15643,48 @@ class Mission
 			colorName="ColorOrange";
 			id=1024;
 			atlOffset=27.789101;
+		};
+		class Item758
+		{
+			dataType="Marker";
+			position[]={2557.564,0,6018.96};
+			name="VehStore20_heliSpawn";
+			type="Empty";
+			id=1025;
+			atlOffset=18.457771;
+		};
+		class Item759
+		{
+			dataType="Marker";
+			position[]={2578.4961,0,6079.0498};
+			name="VehStore20_seaSpawn";
+			type="Empty";
+			id=1026;
+			atlOffset=25.332888;
+		};
+		class Item760
+		{
+			dataType="Marker";
+			position[]={2541.3101,0,5990.6401};
+			name="VehStore20_landSpawn";
+			type="Empty";
+			id=1027;
+			atlOffset=12.51894;
+		};
+		class Item761
+		{
+			dataType="Marker";
+			position[]={2711.5,2.5,5812};
+			name="TERRITORY_ArmyBoat";
+			text="Boatpier";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=70;
+			b=70;
+			id=1028;
+			atlOffset=-0.099999905;
 		};
 	};
 };
