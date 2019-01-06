@@ -36,7 +36,7 @@ else
 	highAdmins = compileFinal str
 	[
 		// Put player UIDs here
-		"76561198137193786" // Linus
+		
 	];
 
 	// Server Owners: access to everything, including god mode, money, guns, and vehicles
@@ -44,6 +44,7 @@ else
 	[
 		// Put player UIDs here
 		"76561198052810012" // Nyno
+		"76561198137193786" // Linus
 	];
 
 	/********************************************************/
