@@ -8,22 +8,22 @@ class EditorData
 	toggles=14;
 	class ItemIDProvider
 	{
-		nextID=1013;
+		nextID=1025;
 	};
 	class MarkerIDProvider
 	{
-		nextID=164;
+		nextID=165;
 	};
 	class LayerIndexProvider
 	{
-		nextID=6;
+		nextID=10;
 	};
 	class Camera
 	{
-		pos[]={2741.8804,143.82341,6023.5933};
-		dir[]={-0.75532323,-0.42534786,-0.49880576};
-		up[]={-0.35518125,0.9048655,-0.23455815};
-		aside[]={-0.5511328,4.076137e-007,0.83455551};
+		pos[]={2591.8,167.15276,5833.3125};
+		dir[]={0.81455809,-0.52023476,0.25713238};
+		up[]={0.49636227,0.85381168,0.15668792};
+		aside[]={0.30106264,1.0738659e-006,-0.9537183};
 	};
 };
 binarizationWanted=0;
@@ -80,18 +80,15 @@ addons[]=
 	"A3_Boat_F_Destroyer_Destroyer_01",
 	"A3_Structures_F_Exp_Civilian_Accessories",
 	"A3_Characters_F_Common",
-	"A3_Static_F_Destroyer_Ship_MRLS_01",
-	"A3_Static_F_Destroyer_Ship_Gun_01",
-	"A3_Static_F_Jets_SAM_System_01",
-	"A3_Static_F_Jets_AAA_System_01",
 	"A3_Static_F_Sams_Radar_System_01",
-	"A3_Static_F_Sams_SAM_System_03"
+	"A3_Static_F_Sams_SAM_System_03",
+	"A3_Boat_F_Exp_Boat_Transport_02"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=19;
+		items=18;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -206,22 +203,15 @@ class AddonsMetaData
 		};
 		class Item16
 		{
-			className="A3_Static_F_Destroyer";
-			name="CFGPATCHES_A3_Static_F_Destroyer";
+			className="A3_Static_F_Sams";
+			name="Arma 3 Sams - Turrets";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
 		class Item17
 		{
-			className="A3_Static_F_Jets";
-			name="Arma 3 Jets - Turrets";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item18
-		{
-			className="A3_Static_F_Sams";
-			name="Arma 3 Sams - Turrets";
+			className="A3_Boat_F_Exp";
+			name="Arma 3 Apex - Boats and Submersibles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
@@ -255,7 +245,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=764;
+		items=758;
 		class Item0
 		{
 			dataType="Group";
@@ -9166,7 +9156,7 @@ class Mission
 					name="Parking1_spawn";
 					type="Empty";
 					colorName="ColorBlack";
-					angle=222.76923;
+					angle=222.7692;
 					id=597;
 				};
 				class Item9
@@ -10042,7 +10032,7 @@ class Mission
 					name="Parking4_spawn";
 					type="Empty";
 					colorName="ColorBlack";
-					angle=213.11594;
+					angle=213.11591;
 					id=649;
 					atlOffset=53.335487;
 				};
@@ -10138,7 +10128,7 @@ class Mission
 			};
 			id=657;
 			type="Land_Cargo_Tower_V1_No6_F";
-			atlOffset=-0.48750019;
+			atlOffset=-0.48750114;
 		};
 		class Item441
 		{
@@ -10594,7 +10584,7 @@ class Mission
 			};
 			id=690;
 			type="Land_Mil_WallBig_4m_F";
-			atlOffset=0.21420574;
+			atlOffset=0.21420586;
 		};
 		class Item468
 		{
@@ -10696,7 +10686,7 @@ class Mission
 			};
 			id=696;
 			type="Land_Mil_WallBig_4m_F";
-			atlOffset=0.4375;
+			atlOffset=0.43750012;
 		};
 		class Item474
 		{
@@ -15266,7 +15256,7 @@ class Mission
 			};
 			id=978;
 			type="Land_Mil_WallBig_4m_F";
-			atlOffset=0.21537018;
+			atlOffset=0.2153703;
 		};
 		class Item743
 		{
@@ -15283,7 +15273,7 @@ class Mission
 			};
 			id=979;
 			type="Land_Mil_WallBig_4m_F";
-			atlOffset=0.21594954;
+			atlOffset=0.21594965;
 		};
 		class Item744
 		{
@@ -15324,7 +15314,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2502.5,4.043715,6047};
+				position[]={2503,4.043715,6047.5};
 				angles[]={0,3.9267848,0};
 			};
 			side="Empty";
@@ -15334,14 +15324,14 @@ class Mission
 			};
 			id=983;
 			type="Land_Plank_01_8m_F";
-			atlOffset=26.73625;
+			atlOffset=26.905001;
 		};
 		class Item747
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2498.5,3.5437152,6043.5};
+				position[]={2499,3.5437152,6044};
 				angles[]={6.1660309,4.0625315,0.32837415};
 			};
 			side="Empty";
@@ -15351,7 +15341,7 @@ class Mission
 			};
 			id=984;
 			type="Land_Plank_01_4m_F";
-			atlOffset=3.2141514;
+			atlOffset=3.2129807;
 		};
 		class Item748
 		{
@@ -15365,299 +15355,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2465,7.0014386,6117.5498};
-						angles[]={0,2.3728542,0};
-					};
-					side="West";
-					flags=2;
-					class Attributes
-					{
-					};
-					id=990;
-					type="B_UAV_AI";
-					atlOffset=35.860001;
-				};
-			};
-			class Attributes
-			{
-			};
-			class CrewLinks
-			{
-				class LinkIDProvider
-				{
-					nextID=1;
-				};
-				class Links
-				{
-					items=1;
-					class Item0
-					{
-						linkID=0;
-						item0=990;
-						item1=989;
-						class CustomData
-						{
-							role=2;
-							turretPath[]={0};
-						};
-					};
-				};
-			};
-			id=988;
-			atlOffset=35.860001;
-		};
-		class Item749
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2465.1987,8.3469467,6117.6812};
-				angles[]={0,2.3728542,0};
-			};
-			side="West";
-			flags=2;
-			class Attributes
-			{
-				receiveRemoteTargets=1;
-			};
-			id=989;
-			type="B_Ship_MRLS_01_F";
-			atlOffset=35.860001;
-		};
-		class Item750
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={2453,8.5014391,6130.0498};
-						angles[]={0,5.501833,0};
-					};
-					side="West";
-					flags=2;
-					class Attributes
-					{
-					};
-					id=993;
-					type="B_UAV_AI";
-					atlOffset=37.422501;
-				};
-			};
-			class Attributes
-			{
-			};
-			class CrewLinks
-			{
-				class LinkIDProvider
-				{
-					nextID=1;
-				};
-				class Links
-				{
-					items=1;
-					class Item0
-					{
-						linkID=0;
-						item0=993;
-						item1=992;
-						class CustomData
-						{
-							role=2;
-							turretPath[]={0};
-						};
-					};
-				};
-			};
-			id=991;
-			atlOffset=37.422501;
-		};
-		class Item751
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2453.0496,11.237968,6129.9487};
-				angles[]={0,5.501833,0};
-			};
-			side="West";
-			flags=2;
-			class Attributes
-			{
-				receiveRemoteTargets=1;
-			};
-			id=992;
-			type="B_Ship_Gun_01_F";
-			atlOffset=37.422501;
-		};
-		class Item752
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={2543,12.001439,6036.5498};
-						angles[]={0,5.5688744,0};
-					};
-					side="West";
-					flags=2;
-					class Attributes
-					{
-					};
-					id=996;
-					type="B_UAV_AI";
-					atlOffset=0.26727676;
-				};
-			};
-			class Attributes
-			{
-			};
-			class CrewLinks
-			{
-				class LinkIDProvider
-				{
-					nextID=1;
-				};
-				class Links
-				{
-					items=1;
-					class Item0
-					{
-						linkID=0;
-						item0=996;
-						item1=995;
-						class CustomData
-						{
-							role=2;
-							turretPath[]={0};
-						};
-					};
-				};
-			};
-			id=994;
-			atlOffset=0.26727676;
-		};
-		class Item753
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2543,13.756474,6036.5};
-				angles[]={0,5.5688744,0};
-			};
-			side="West";
-			flags=2;
-			class Attributes
-			{
-				ammo=0;
-				reportRemoteTargets=1;
-				receiveRemoteTargets=1;
-				reportOwnPosition=1;
-				aiRadarUsage=1;
-			};
-			id=995;
-			type="B_SAM_System_01_F";
-			atlOffset=0.26727676;
-		};
-		class Item754
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={2475,11.501693,6107.5498};
-						angles[]={0,5.5524507,0};
-					};
-					side="West";
-					flags=2;
-					class Attributes
-					{
-					};
-					id=999;
-					type="B_UAV_AI";
-					atlOffset=1.4063435;
-				};
-			};
-			class Attributes
-			{
-			};
-			class CrewLinks
-			{
-				class LinkIDProvider
-				{
-					nextID=1;
-				};
-				class Links
-				{
-					items=1;
-					class Item0
-					{
-						linkID=0;
-						item0=999;
-						item1=998;
-						class CustomData
-						{
-							role=2;
-							turretPath[]={0};
-						};
-					};
-				};
-			};
-			id=997;
-			atlOffset=1.4063435;
-		};
-		class Item755
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2475,14.006011,6107.5};
-				angles[]={0,5.5524507,0};
-			};
-			side="West";
-			flags=2;
-			class Attributes
-			{
-				ammo=0;
-				reportRemoteTargets=1;
-				receiveRemoteTargets=1;
-				reportOwnPosition=1;
-				aiRadarUsage=1;
-			};
-			id=998;
-			type="B_AAA_System_01_F";
-			atlOffset=1.4063435;
-		};
-		class Item756
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={2716.5,2.5014389,5842.0498};
+						position[]={2716.5,2.5020151,5842.021};
 						angles[]={0,2.2660308,0};
 					};
 					side="West";
@@ -15698,12 +15396,12 @@ class Mission
 			id=1000;
 			atlOffset=0.27999997;
 		};
-		class Item757
+		class Item749
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2716.5,5.428772,5842.0293};
+				position[]={2716.5,5.4289093,5842.0298};
 				angles[]={0,2.2660308,0};
 			};
 			side="West";
@@ -15711,7 +15409,7 @@ class Mission
 			class Attributes
 			{
 				ammo=0;
-				lock="LOCKEDPLAYER";
+				lock="LOCKED";
 				reportRemoteTargets=1;
 				receiveRemoteTargets=1;
 				reportOwnPosition=1;
@@ -15721,7 +15419,7 @@ class Mission
 			type="B_Radar_System_01_F";
 			atlOffset=0.27999997;
 		};
-		class Item758
+		class Item750
 		{
 			dataType="Group";
 			side="West";
@@ -15733,8 +15431,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2721.5,2.5014389,5845.5498};
-						angles[]={0,2.2374592,0};
+						position[]={2720.947,2.4445822,5845.8428};
+						angles[]={0,2.2374599,0};
 					};
 					side="West";
 					flags=2;
@@ -15743,7 +15441,7 @@ class Mission
 					};
 					id=1005;
 					type="B_UAV_AI";
-					atlOffset=0.32375002;
+					atlOffset=0.273;
 				};
 			};
 			class Attributes
@@ -15772,62 +15470,30 @@ class Mission
 				};
 			};
 			id=1003;
-			atlOffset=0.32375002;
+			atlOffset=0.273;
 		};
-		class Item759
+		class Item751
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2720.9756,6.3143158,5845.9292};
-				angles[]={0,2.2374592,0};
+				position[]={2720.9761,6.3147068,5845.9287};
+				angles[]={0,2.2374599,0};
 			};
 			side="West";
 			flags=2;
 			class Attributes
 			{
+				lock="LOCKED";
 				receiveRemoteTargets=1;
 				reportOwnPosition=1;
 				aiRadarUsage=1;
 			};
 			id=1004;
 			type="B_SAM_System_03_F";
-			atlOffset=0.32375002;
+			atlOffset=0.273;
 		};
-		class Item760
-		{
-			dataType="Group";
-			side="Civilian";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={2524.5322,5.3021164,6045.1714};
-						angles[]={0,2.3812902,0};
-					};
-					side="Civilian";
-					flags=7;
-					class Attributes
-					{
-						init="[this] spawn A3W_fnc_setupStoreNPC";
-						name="VehStore2_1";
-					};
-					id=1007;
-					type="C_man_1_1_F";
-					atlOffset=3.8146973e-006;
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1006;
-			atlOffset=3.8146973e-006;
-		};
-		class Item761
+		class Item752
 		{
 			dataType="Object";
 			class PositionInfo
@@ -15843,7 +15509,7 @@ class Mission
 			type="Land_TTowerBig_2_F";
 			atlOffset=0.92749977;
 		};
-		class Item762
+		class Item753
 		{
 			dataType="Object";
 			class PositionInfo
@@ -15859,7 +15525,7 @@ class Mission
 			type="Land_TTowerBig_2_F";
 			atlOffset=1.1999969;
 		};
-		class Item763
+		class Item754
 		{
 			dataType="Object";
 			class PositionInfo
@@ -15874,6 +15540,109 @@ class Mission
 			id=1012;
 			type="Land_TTowerBig_2_F";
 			atlOffset=1.0074997;
+		};
+		class Item755
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2526.5,5.3190708,6071.5};
+				angles[]={0,5.5379848,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1021;
+			type="I_C_Boat_Transport_02_F";
+			atlOffset=0.23078394;
+		};
+		class Item756
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2525.2219,5.3024144,6044.333};
+						angles[]={0,2.3626173,0};
+					};
+					side="Civilian";
+					flags=7;
+					class Attributes
+					{
+						init="0 = [this] spawn A3W_fnc_setupStoreNPC " \n "";
+						name="VehStore20";
+					};
+					id=1023;
+					type="C_man_1_1_F";
+					atlOffset=0.0002989769;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male03GRE";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1022;
+			atlOffset=0.0002989769;
+		};
+		class Item757
+		{
+			dataType="Marker";
+			position[]={2526.709,0,6044.0161};
+			name="marker_164";
+			text="VS";
+			type="mil_dot";
+			colorName="ColorOrange";
+			id=1024;
+			atlOffset=27.789101;
 		};
 	};
 };
