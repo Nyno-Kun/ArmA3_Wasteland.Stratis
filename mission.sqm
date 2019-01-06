@@ -8,7 +8,7 @@ class EditorData
 	toggles=14;
 	class ItemIDProvider
 	{
-		nextID=1029;
+		nextID=1030;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=10;
+		nextID=14;
 	};
 	class Camera
 	{
-		pos[]={2561.0789,31.660151,6014.52};
-		dir[]={-0.10408767,-0.97551149,0.1944399};
-		up[]={-0.46036008,0.2200906,0.85997248};
-		aside[]={0.88172126,1.15484e-007,0.47200441};
+		pos[]={2913.6504,115.28268,5821.8647};
+		dir[]={-0.39518362,-0.55419379,0.73277777};
+		up[]={-0.26318237,0.83216345,0.48801336};
+		aside[]={0.88025928,5.8684964e-007,0.47472134};
 	};
 };
 binarizationWanted=0;
@@ -245,7 +245,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=762;
+		items=763;
 		class Item0
 		{
 			dataType="Group";
@@ -9156,7 +9156,7 @@ class Mission
 					name="Parking1_spawn";
 					type="Empty";
 					colorName="ColorBlack";
-					angle=222.7692;
+					angle=222.76917;
 					id=597;
 				};
 				class Item9
@@ -10032,7 +10032,7 @@ class Mission
 					name="Parking4_spawn";
 					type="Empty";
 					colorName="ColorBlack";
-					angle=213.11591;
+					angle=213.11588;
 					id=649;
 					atlOffset=53.335487;
 				};
@@ -15297,7 +15297,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2506,4.043715,6050.5};
+				position[]={2505,4.043715,6051.5};
 				angles[]={0,3.9270668,0};
 			};
 			side="Empty";
@@ -15307,14 +15307,14 @@ class Mission
 			};
 			id=982;
 			type="Land_Plank_01_8m_F";
-			atlOffset=27.99375;
+			atlOffset=27.758749;
 		};
 		class Item746
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2503,4.043715,6047.5};
+				position[]={2502,4.043715,6048.5};
 				angles[]={0,3.9267848,0};
 			};
 			side="Empty";
@@ -15324,14 +15324,14 @@ class Mission
 			};
 			id=983;
 			type="Land_Plank_01_8m_F";
-			atlOffset=26.905001;
+			atlOffset=26.68;
 		};
 		class Item747
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2499,3.5437152,6044};
+				position[]={2498,3.5437152,6045};
 				angles[]={6.1660309,4.0625315,0.32837415};
 			};
 			side="Empty";
@@ -15341,7 +15341,7 @@ class Mission
 			};
 			id=984;
 			type="Land_Plank_01_4m_F";
-			atlOffset=3.2129807;
+			atlOffset=24.83;
 		};
 		class Item748
 		{
@@ -15570,7 +15570,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2525.2219,5.3024144,6044.333};
+						position[]={2525.2219,5.3024149,6044.333};
 						angles[]={0,2.3626173,0};
 					};
 					side="Civilian";
@@ -15685,6 +15685,23 @@ class Mission
 			b=70;
 			id=1028;
 			atlOffset=-0.099999905;
+		};
+		class Item762
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2492.5,-2.4515393,6051.5};
+				angles[]={0,3.9064257,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=1029;
+			type="Land_PierLadder_F";
+			atlOffset=17.775;
 		};
 	};
 };
