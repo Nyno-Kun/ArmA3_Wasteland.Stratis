@@ -320,8 +320,8 @@ ammoArray = compileFinal str
 	["Titan Anti-Tank Missile", "Titan_AT", 2000],            //                 515     |                 20,  2.0m     |           mouse, laser/IR, hot ground vehicles
 	["Titan Anti-Personnel Missile", "Titan_AP", 850],        //                 100     |                 25, 10.0m     |           mouse, laser/IR
 	["Titan AA Missile", "Titan_AA", 2000],                   //                  80     |                 60,  6.0m     |           aircraft
-	["40mm HE Grenade Round", "1Rnd_HE_Grenade_shell", 400
-	["40mm 3Rnd HE Grenades", "3Rnd_HE_Grenade_shell", 800
+	["40mm HE Grenade Round", "1Rnd_HE_Grenade_shell", 400],
+	["40mm 3Rnd HE Grenades", "3Rnd_HE_Grenade_shell", 800],
 	["40mm Smoke Round (White)", "1Rnd_Smoke_Grenade_shell", 50],
 	["40mm Smoke Round (Purple)", "1Rnd_SmokePurple_Grenade_shell", 50],
 	["40mm Smoke Round (Blue)", "1Rnd_SmokeBlue_Grenade_shell", 50],
