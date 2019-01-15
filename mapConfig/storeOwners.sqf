@@ -44,6 +44,6 @@ storeOwnerConfigAppearance = compileFinal str
 	["VehStore2", [["weapon", ""], ["uniform", "U_Competitor"]]],
 	["VehStore3", [["weapon", ""], ["uniform", "U_Competitor"]]],
 	["VehStore4", [["weapon", ""], ["uniform", "U_Competitor"]]],
-	["VehStore20", [["weapon", ""], ["uniform", "U_Competitor"]]],
+	["VehStore20", [["weapon", ""], ["uniform", "U_Competitor"]]]
 	
 ];
